@@ -26,7 +26,7 @@ const artilceSchema = new mongoose.Schema({
     },
     createdAt: {
         type: Date,
-        default:new Date().toLocaleDateString()
+        default:Date.now()
     },
     slug: {
         type: String,
